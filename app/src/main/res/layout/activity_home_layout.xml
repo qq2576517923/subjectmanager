@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="课程详情"
+        android:textSize="35sp"
+        android:textColor="#4682B4"
+        android:layout_marginTop="21dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课程编号："
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/cno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4682B4"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课  程  名： "
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/cname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4682B4"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="任课老师："
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/cteacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4682B4"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上课时间："
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+        <EditText
+            android:id="@+id/cstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4682B4"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束时间："
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+
+        <EditText
+            android:id="@+id/cend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4682B4"
+            android:textSize="21sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否提醒："
+            android:textColor="#4682B4"
+            android:textSize="21sp" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是"
+            android:textColor="#4682B4"
+            android:textSize="21sp"
+            android:layout_marginLeft="35dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="否"
+            android:textColor="#4682B4"
+            android:textSize="21sp"
+            android:layout_marginLeft="35dp"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_marginRight="21dp">
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_rect_gray"
+            android:text="编辑"
+            android:textColor="#20B2AA"
+            android:textSize="21sp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
